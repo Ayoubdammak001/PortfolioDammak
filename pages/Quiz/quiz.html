@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link rel="icon" href="../../assets/img/icon.png" type="image/png">
+
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="C:\Users\USER\Desktop\Projet web\index.html" class="nav__logo">Ayoub DAMMAK</a>
+            </div>
+
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../../index.html" class="nav__link ">Home</a></li>
+                    <li class="nav__item"><a href="../About/about.html" class="nav__link ">About</a></li>
+                    <li class="nav__item"><a href="..\Skills\skills.html" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="..\work\work.html" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="..\contact\contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="..\Quiz\quiz.html" class="nav__link active">Quiz</a></li>
+
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <section class="quiz section" id="quiz">
+            <h2 class="section-title">Quiz sur la Programmation Web</h2>
+
+            <p class="quiz-description">Testez vos connaissances en programmation web avec ce quiz. Répondez aux questions suivantes:</p>
+
+
+            <div class="quiz__container bd-grid">
+                <form id="form" method="post" class="quiz__container bd-grid">
+                    <div class="quiz__question">
+                        <h3>Question 1:</h3>
+                        <p>Qu'est-ce que CSS signifie?</p>
+                        <label><input type="radio" name="q1" value="1"> A. Counter Strike: Source</label>
+                        <label><input type="radio" name="q1" value="2"> B. Computer Style Sheets</label>
+                        <label><input type="radio" name="q1" value="3"> C. Cascading Style Sheets</label>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="quiz__question">
+                        <h3>Question 2:</h3>
+                        <p>Quelle est la balise principale pour le contenu HTML?</p>
+                        <label><input type="radio" name="q2" value="1"> A. &lt;head&gt;</label>
+                        <label><input type="radio" name="q2" value="2"> B. &lt;body&gt;</label>
+                        <label><input type="radio" name="q2" value="3"> C. &lt;html&gt;</label>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="quiz__question">
+                        <h3>Question 3:</h3>
+                        <p>Quel langage est utilisé pour styliser les pages web?</p>
+                        <label><input type="radio" name="q3" value="1"> A. Java</label>
+                        <label><input type="radio" name="q3" value="2"> B. CSS</label>
+                        <label><input type="radio" name="q3" value="3"> C. Python</label>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="quiz__question">
+                        <h3>Question 4:</h3>
+                        <p>Quelle est la fonction principale de JavaScript dans le développement web?</p>
+                        <label><input type="radio" name="q4" value="1"> A. Gestion des bases de données</label>
+                        <label><input type="radio" name="q4" value="2"> B. Ajout de style aux pages</label>
+                        <label><input type="radio" name="q4" value="3"> C. Ajout d'interactivité et de dynamisme</label>
+                    </div>
+
+                    <!-- Question 5 -->
+                    <div class="quiz__question">
+                        <h3>Question 5:</h3>
+                        <p>Quelle balise est utilisée pour créer une liste non ordonnée en HTML?</p>
+                        <label><input type="radio" name="q5" value="1"> A. &lt;ul&gt;</label>
+                        <label><input type="radio" name="q5" value="2"> B. &lt;ol&gt;</label>
+                        <label><input type="radio" name="q5" value="3"> C. &lt;li&gt;</label>
+                    </div>
+
+                    <!-- Question 6 -->
+                    <div class="quiz__question">
+                        <h3>Question 6:</h3>
+                        <p>Quel est le format de données communément utilisé pour échanger des données entre le client
+                            et le
+                            serveur?</p>
+                        <label><input type="radio" name="q6" value="1"> A. XML</label>
+                        <label><input type="radio" name="q6" value="2"> B. JSON</label>
+                        <label><input type="radio" name="q6" value="3"> C. YAML</label>
+                    </div>
+
+                    <!-- Question 7 -->
+                    <div class="quiz__question">
+                        <h3>Question 7:</h3>
+                        <p>Quel sélecteur CSS sélectionne tous les éléments avec une classe spécifique?</p>
+                        <label><input type="radio" name="q7" value="1"> A. .class</label>
+                        <label><input type="radio" name="q7" value="2"> B. #class</label>
+                        <label><input type="radio" name="q7" value="3"> C. class()</label>
+                    </div>
+
+                    <!-- Question 8 -->
+                    <div class="quiz__question">
+                        <h3>Question 8:</h3>
+                        <p>Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau?</p>
+                        <label><input type="radio" name="q8" value="1"> A. add()</label>
+                        <label><input type="radio" name="q8" value="2"> B. append()</label>
+                        <label><input type="radio" name="q8" value="3"> C. push()</label>
+                    </div>
+
+                    <!-- Question 9 -->
+                    <div class="quiz__question">
+                        <h3>Question 9:</h3>
+                        <p>Quelle balise est utilisée pour définir une section indépendante dans un document HTML?</p>
+                        <label><input type="radio" name="q9" value="1"> A. &lt;div&gt;</label>
+                        <label><input type="radio" name="q9" value="2"> B. &lt;section&gt;</label>
+                        <label><input type="radio" name="q9" value="3"> C. &lt;article&gt;</label>
+                    </div>
+
+                    <!-- Question 10 -->
+                    <div class="quiz__question">
+                        <h3>Question 10:</h3>
+                        <p>Quel attribut HTML est utilisé pour définir le texte alternatif pour une image?</p>
+                        <label><input type="radio" name="q10" value="1"> A. alt</label>
+                        <label><input type="radio" name="q10" value="2"> B. title</label>
+                        <label><input type="radio" name="q10" value="3"> C. src</label>
+                    </div>
+
+                    <button type="submit" onclick="submit">Envoyer</button>
+            </div>
+            
+            <div id="web-programming-quiz-result" style="display: none; margin: 5rem;" class="quiz__container bd-grid">
+                <h2>Résultats du Quiz sur la Programmation Web</h2>
+                <p>Votre note : <span id="web-programming-quiz-score"></span></p>
+                <h3>Réponses correctes :</h3>
+                <ul id="web-programming-quiz-incorrect-answers"></ul>
+                <h3>Réponses incorrectes :</h3>
+                <ul id="web-programming-quiz-correct-answers"></ul>
+            </div>
+
+            <script type="text/javascript">
+                const form = document.getElementById('form');
+            
+                form.addEventListener('submit', event => {
+                    event.preventDefault();
+                    submit()
+                });
+            
+                function submit() {
+                    let form = document.forms.form;
+                    let formData = new FormData(form)
+                    let score = 0;
+            
+                    if (formData.get('q1') === "3") score++;
+                    if (formData.get('q2') === "2") score++;
+                    if (formData.get('q3') === "2") score++;
+                    if (formData.get('q4') === "3") score++;
+                    if (formData.get('q5') === "1") score++;
+                    if (formData.get('q6') === "2") score++;
+                    if (formData.get('q7') === "1") score++;
+                    if (formData.get('q8') === "3") score++;
+                    if (formData.get('q9') === "2") score++;
+                    if (formData.get('q10') === "1") score++;
+            
+                    alert("Vous avez réussi à répondre à : " + score + " points");
+                }
+            </script>
+            
+
+            <script type="text/javascript">
+                const quizForm = document.getElementById('form');
+            
+                quizForm.addEventListener('submit', event => {
+                    event.preventDefault();
+                    correction();
+                });
+            
+                function correction() {
+                    let formData = new FormData(quizForm);
+                    let score = 0;
+                    let correctAnswers = [];
+            
+                    if (formData.get('q1') === "3") {
+                        score++;
+                    } else {
+                        correctAnswers.push(1);
+                    }
+            
+                    if (formData.get('q2') === "2") {
+                        score++;
+                    } else {
+                        correctAnswers.push(2);
+                    }
+            
+                    if (formData.get('q3') === "2") {
+                        score++;
+                    } else {
+                        correctAnswers.push(3);
+                    }
+            
+                    if (formData.get('q4') === "3") {
+                        score++;
+                    } else {
+                        correctAnswers.push(4);
+                    }
+            
+                    if (formData.get('q5') === "1") {
+                        score++;
+                    } else {
+                        correctAnswers.push(5);
+                    }
+            
+                    if (formData.get('q6') === "2") {
+                        score++;
+                    } else {
+                        correctAnswers.push(6);
+                    }
+            
+                    if (formData.get('q7') === "1") {
+                        score++;
+                    } else {
+                        correctAnswers.push(7);
+                    }
+            
+                    if (formData.get('q8') === "3") {
+                        score++;
+                    } else {
+                        correctAnswers.push(8);
+                    }
+            
+                    if (formData.get('q9') === "2") {
+                        score++;
+                    } else {
+                        correctAnswers.push(9);
+                    }
+            
+                    if (formData.get('q10') === "1") {
+                        score++;
+                    } else {
+                        correctAnswers.push(10);
+                    }
+            
+                    // Affichage des résultats
+                    afficherResultats(score, correctAnswers);
+                }
+            
+                function afficherResultats(score, correctAnswers) {
+                    const resultDiv = document.getElementById('web-programming-quiz-result');
+                    const scoreSpan = document.getElementById('web-programming-quiz-score');
+                    const correctAnswersList = document.getElementById('web-programming-quiz-correct-answers');
+                    const incorrectAnswersList = document.getElementById('web-programming-quiz-incorrect-answers');
+            
+                    // Afficher le score
+                    scoreSpan.textContent = score;
+            
+                    // Afficher les réponses correctes
+                    correctAnswersList.innerHTML = "";
+                    correctAnswers.forEach(questionNumber => {
+                        const li = document.createElement('li');
+                        li.textContent = `Question ${questionNumber}`;
+                        li.style.color = 'red';
+
+                        correctAnswersList.appendChild(li);
+                    });
+            
+                    // Afficher les réponses incorrectes
+                    incorrectAnswersList.innerHTML = "";
+                    for (let i = 1; i <= 10; i++) {
+                        if (!correctAnswers.includes(i)) {
+                            const li = document.createElement('li');
+                            li.textContent = `Question ${i}`;
+                            incorrectAnswersList.appendChild(li);
+                        }
+                    }
+            
+                    // Afficher la section des résultats
+                    resultDiv.style.display = 'block';
+                }
+            </script>
+            
+            
+            
+            </form>
+        </section>
+    </main>
+</body>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+    <p class="footer__title">Ayoub</p>
+    <div class="footer__social">
+        <a href="https://www.facebook.com/ayoub.dammak4" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/Ayoubdamak/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/ayoub-dammak/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="../../script.js"></script>
+
+<!--===== MAIN JS =====-->
+<script src="../../assets/js/main.js"></script>
+
+</html>
